@@ -4,10 +4,13 @@
 - GAYATHRI M NAIR
 - KRISHNANUNNI H PILLAI
 - AKSA THOMAS
-- V A HARIKRISHNAN
+- V A HARI KRISHNAN
 - AADYA AJAYAN
 
-An AI-powered web application that helps users discover Kerala government schemes they're eligible for based on their profile information.
+SahAI is an Agentic AI–driven platform designed to autonomously guide citizens through complex government procedures and welfare schemes.SahAI functions as an intelligent multi-agent system capable of reasoning, planning, executing, and monitoring multi-step government workflows while maintaining strict human oversight for sensitive actions.
+
+The platform integrates securely with DigiLocker to access verified documents and uses AI agents to generate personalized procedural roadmaps. It understands a citizen’s profile—such as age, income category, occupation, and location—and matches it with relevant central, state, and local government schemes.
+
 
 > **🎯 NEW HERE? START WITH [START_HERE.md](START_HERE.md)**
 > 
@@ -21,6 +24,7 @@ An AI-powered web application that helps users discover Kerala government scheme
 - 🌐 Web scraping from official Kerala government portal
 - 💡 Modern Next.js frontend with TypeScript
 - 🎨 Responsive and user-friendly interface
+- 📝 Automated scheme application and form filling
 
 ## Quick Start
 
