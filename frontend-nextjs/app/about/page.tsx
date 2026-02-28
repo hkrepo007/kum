@@ -4,13 +4,13 @@ export default function AboutPage() {
   return (
     <main className="main-content">
       <section className="content-section">
-        <h1 className="section-title">About Kerala SchemeAI</h1>
+        <h1 className="section-title">About SahAI</h1>
         
         <div className="about-content">
           <div className="about-section">
-            <h2>🤖 What is Kerala SchemeAI?</h2>
+            <h2>🤖 What is SahAI?</h2>
             <p>
-              Kerala SchemeAI is an innovative AI-powered platform designed to help citizens of Kerala 
+              SahAI is an innovative AI-powered platform designed to help citizens of Kerala 
               discover government schemes they are eligible for. Using advanced artificial intelligence 
               and machine learning, our platform analyzes your profile and matches you with relevant 
               government welfare schemes, subsidies, and benefits.
@@ -73,7 +73,7 @@ export default function AboutPage() {
           </div>
 
           <div className="about-section">
-            <h2>🌟 Why Choose Kerala SchemeAI?</h2>
+            <h2>🌟 Why Choose SahAI?</h2>
             <div className="benefits-grid">
               <div className="benefit-card">
                 <div className="benefit-icon">⚡</div>
@@ -101,7 +101,7 @@ export default function AboutPage() {
           <div className="about-section">
             <h2>🏛️ Government Integration</h2>
             <p>
-              Kerala SchemeAI works in conjunction with official Kerala government portals including:
+              SahAI works in conjunction with official Kerala government portals including:
             </p>
             <ul className="portal-list">
               <li>Kerala State Portal (kerala.gov.in)</li>

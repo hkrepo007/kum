@@ -10,7 +10,7 @@ export default function EcosystemPage() {
           <div className="about-section">
             <h2>🌐 Digital Kerala Initiative</h2>
             <p>
-              Kerala SchemeAI is part of the larger Digital Kerala ecosystem, aimed at bringing 
+              SahAI is part of the larger Digital Kerala ecosystem, aimed at bringing 
               government services closer to citizens through technology and innovation.
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function EcosystemPage() {
 
           <div className="about-section">
             <h2>🚀 Technology Stack</h2>
-            <p>Kerala SchemeAI is built using modern technologies:</p>
+            <p>SahAI is built using modern technologies:</p>
             <ul className="features-list">
               <li><strong>Artificial Intelligence:</strong> Hugging Face Mistral-7B for intelligent scheme matching</li>
               <li><strong>Web Scraping:</strong> Real-time data from Kerala government portals</li>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Kerala SchemeAI - Find Your Government Schemes',
+  title: 'SahAI - Find Your Government Schemes',
   description: 'AI-powered platform to discover Kerala government schemes you are eligible for',
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({
                 <div className="logo-group">
                   <div className="emblem">🏛️</div>
                   <div className="logo-text">
-                    <div className="app-name">Kerala SchemeAI</div>
+                    <div className="app-name">SahAI</div>
                     <div className="app-tagline">Find Your Eligible Schemes</div>
                   </div>
                 </div>

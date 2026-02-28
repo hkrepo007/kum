@@ -38,10 +38,10 @@ export default function Home() {
         <div className="hero-container">
           <div className="hero-content">
             <h1>
-              <span className="my">Kerala</span><span className="scheme">SchemeAI</span>
+              <span className="my">Sah</span><span className="scheme">AI</span>
             </h1>
             <p className="hero-description">
-              Launched by the Kerala Government, Kerala SchemeAI is an AI-powered marketplace for schemes. 
+              Launched by the Kerala Government, SahAI is an AI-powered marketplace for schemes. 
               The platform is a one-stop solution for information on Government schemes and aims to deliver 
               government schemes in a seamless, convenient, cashless, paperless, faceless, time-bound, and 
               transparent manner across Government silos.
