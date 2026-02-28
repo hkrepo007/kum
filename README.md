@@ -1,4 +1,11 @@
-# Kerala Government Schemes Eligibility Finder
+# SahAI 
+
+# Team Members
+- GAYATHRI M NAIR
+- KRISHNANUNNI H PILLAI
+- AKSA THOMAS
+- V A HARIKRISHNAN
+- AADYA AJAYAN
 
 An AI-powered web application that helps users discover Kerala government schemes they're eligible for based on their profile information.
 
