@@ -8,10 +8,10 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# Configure CORS properly
+# Configure CORS properly - allow both local and production origins
 CORS(app, resources={
     r"/api/*": {
-        "origins": ["http://localhost:3000", "http://127.0.0.1:3000"],
+        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://*.vercel.app"],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type"]
     }
@@ -98,6 +98,7 @@ def health_check():
     return jsonify({'status': 'healthy', 'message': 'Backend is running'}), 200
 
 if __name__ == '__main__':
-    print("Starting Flask server on http://localhost:5000")
-    print("Make sure OPENAI_API_KEY is set in .env file")
-    app.run(debug=True, port=5000, host='0.0.0.0')
+    port = int(os.environ.get('PORT', 5000))
+    print(f"Starting Flask server on port {port}")
+    print("Make sure HUGGINGFACE_API_KEY is set in environment variables")
+    app.run(debug=False, port=port, host='0.0.0.0')
