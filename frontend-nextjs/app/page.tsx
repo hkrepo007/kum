@@ -50,7 +50,6 @@ export default function Home() {
           <div className="hero-image">
             <div className="floating-circle circle-1"></div>
             <div className="floating-circle circle-2"></div>
-            <span>👨‍🌾</span>
           </div>
         </div>
       </section>
